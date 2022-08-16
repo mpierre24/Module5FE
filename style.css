@@ -4,15 +4,24 @@
     box-sizing: content-box;
 }
 
+header {
+    text-align:left;
+    border-style:groove;
+    border-width: 5px 0px 0px 0px;
+    margin-bottom:10px;
+    align-items: center;
+}    
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: burlywood;
+    
 }
 
-.header {
-    padding: 30px;
-    font-size: 40px;
+footer {
     text-align: center;
-}    
-
+    padding: 10px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+}
 
